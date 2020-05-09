@@ -404,7 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "watchOS-haptics WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,7 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "watchOS-haptics WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +449,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = watchOS_haptics_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS-haptics WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-haptics.watchkitapp";
@@ -468,7 +468,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = watchOS_haptics_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS-haptics WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-haptics.watchkitapp";
@@ -486,7 +486,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-haptics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,7 +499,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.watchOS-haptics";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watchOS_haptics_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="XCg-la-09c">
+                            <items>
+                                <tableRow identifier="MyRowController" id="tUc-Z1-Wzf" customClass="MyRowController" customModule="watchOS_haptics_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="10v-lU-59C">
+                                        <items>
+                                            <label width="1" height="1" alignment="left" verticalAlignment="center" text="Label" id="Y7j-cc-lcM"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="itemLabel" destination="Y7j-cc-lcM" id="GF9-8F-fc1"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="XCg-la-09c" id="3cA-AN-qjR"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -32,14 +53,14 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="watchOS_haptics_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="watchOS_haptics_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
